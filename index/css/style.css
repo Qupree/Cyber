@@ -1,0 +1,59 @@
+
+
+nav{
+    background-color: #122538;
+    color: #fff;
+}
+
+.nav ul li a{
+    color: #fff;
+}
+
+.flex span{
+    padding: 5px;
+}
+
+.textinput{
+    border: solid 1px #333;
+    width: 70%;
+    border-radius: 5px;
+    padding-left: 30px;
+
+}
+.buttoninput{
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #333;
+    color: #fff;
+}
+
+form span{
+    position: absolute;
+    color: #555;
+}
+.inputBox{
+    width: 35%;
+}
+.flex{
+    display: flex;
+}
+
+
+
+.fc{
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+}
+
+.item > *{
+    width: 50%;
+}
+
+.fsb{
+    justify-content: space-between;
+    align-items: center;
+}

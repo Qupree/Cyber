@@ -1,0 +1,67 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;    
+}
+nav ul li{
+    padding: .5rem;
+    
+}
+
+nav ul li a{
+    color: #fff;
+}
+
+nav ul li .active{
+    color: orange;
+}
+
+header{
+    min-height: 60vh;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.devide{
+    margin: 0 25%;
+    border: none; /* Убираем границу */
+    background-color: orange; /* Цвет линии */
+    color: orange; /* Цвет линии для IE6-7 */
+    height: 2.5px; /* Толщина линии */
+
+}
+
+.aboutbox{
+    margin-top: 2vh;
+    text-align: center;
+}
+
+h3{
+    color: orange;
+}
+
+.flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    height: 35vh;
+    padding-top: 3vh;
+    text-align: center;
+}
